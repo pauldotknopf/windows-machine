@@ -39,10 +39,6 @@ cinst -y Atom
 
 cinst -y visualstudiocode
 
-## Visual Studio 2015
-cinst -y visualstudio2015community
-if (Test-PendingReboot) { Invoke-Reboot }
-
 ## Python
 
 cinst -y python
