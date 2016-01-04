@@ -5,7 +5,7 @@ Update-ExecutionPolicy Unrestricted
 
 # Visual Studio 2015 Enterprise (RTM)
 
-cinst VisualStudio2015Enterprise -v 14.0.23107.0 -packageParameters "--Features SQL,MDDCPlusPlus,MDDJS,ToolsForWin81WP80WP81,VCMFCLibraries"
+cinst VisualStudio2015Enterprise -version 14.0.23107.0 -packageParameters "--Features SQL,MDDCPlusPlus,MDDJS,ToolsForWin81WP80WP81,VCMFCLibraries"
 
 # Packages
 
